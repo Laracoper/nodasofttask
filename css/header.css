@@ -1,0 +1,41 @@
+.header {
+    margin: 0 0 15px 0;
+}
+.header__container {
+    background-color: rgb(127, 175, 247);        
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.header__btn {
+    background-color: rgb(165, 199, 249);
+    margin: 0 0 0 30px;
+    padding: 8px 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    flex: 0 0 206px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+@media (max-width:767.98px) {
+    .header__container {
+        background-color: rgb(127, 175, 247);        
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header__btn {
+   
+        margin: 0px;
+      
+        
+        flex: 0 0 206px;
+        
+    }
+}
